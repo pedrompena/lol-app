@@ -1,0 +1,23 @@
+.card {
+    @apply relative m-auto max-w-xs bg-gradient-to-br from-gray-900 to-cyan-900 rounded-lg overflow-hidden hover:opacity-95 drop-shadow-lg;
+}
+
+.img {
+    @apply flex w-11/12 mx-auto mt-3 border-2 border-solid border-orange-600/50;
+}
+
+.difficulty {
+    @apply border-2 border-solid border-orange-600/50 absolute bottom-9 right-0.5 flex bg-gradient-to-br from-slate-500 to-slate-700 rounded-full w-8 h-8 place-content-center place-items-center text-white/70;
+}
+
+.name {
+    @apply relative left-3 top-0.5 flex text-white/70 text-xl;
+}
+
+.subtitle {
+
+    @apply relative left-3 top-0 text-white/70 mb-1 flex;
+}
+.title {
+    @apply relative text-3xl p-4 font-bold text-white/70 text-center bg-gradient-to-br from-gray-900 to-cyan-900 mx-4 rounded-lg;
+}
